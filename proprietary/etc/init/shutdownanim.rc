@@ -1,6 +1,0 @@
-service shutdownanim /system/bin/shutdownanimation
-    class main
-    user graphics
-    group graphics system
-    disabled
-    oneshot
