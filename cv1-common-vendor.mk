@@ -78,14 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/cv1-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lge/cv1-common/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/lge/cv1-common/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/lge/cv1-common/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/lge/cv1-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/lge/cv1-common/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/lge/cv1-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-    vendor/lge/cv1-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/lge/cv1-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/lge/cv1-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/lge/cv1-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/lge/cv1-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/cv1-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lge/cv1-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -346,9 +338,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
-    libtime_genoff \
     QtiTelephonyService \
-    TimeService \
     datastatusnotification \
     fastdormancy \
     shutdownlistener \
