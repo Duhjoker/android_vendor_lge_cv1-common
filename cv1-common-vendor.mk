@@ -333,22 +333,21 @@ PRODUCT_COPY_FILES += \
     vendor/lge/cv1-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/lge/cv1-common/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/lge/cv1-common/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/lge/cv1-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/lge/cv1-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
-    libloc_api_v02 \
-    libtime_genoff \
-    QtiTelephonyService \
-    TimeService \
-    datastatusnotification \
-    fastdormancy \
-    shutdownlistener \
-    CNEService \
-    QtiTetherService \
-    com.qualcomm.location \
-    qcrilmsgtunnel \
-    QtiTelephonyServicelibrary \
-    embmslibrary \
-    qcrilhook \
-    qti-telephony-common
+  #  libloc_api_v02 \
+  #  libtime_genoff \
+  #  QtiTelephonyService \
+  #  TimeService \
+  #  datastatusnotification \
+  #  fastdormancy \
+  #  shutdownlistener \
+  #  CNEService \
+  #  QtiTetherService \
+  #  com.qualcomm.location \
+  #  qcrilmsgtunnel \
+  #  QtiTelephonyServicelibrary \
+  #  embmslibrary \
+  #  qcrilhook \
+  #  qti-telephony-common
