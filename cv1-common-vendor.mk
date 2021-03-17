@@ -339,16 +339,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libtime_genoff \
-    QtiTelephonyService \
-    TimeService \
-    datastatusnotification \
-    fastdormancy \
-    shutdownlistener \
-    CNEService \
-    QtiTetherService \
-    com.qualcomm.location \
-    qcrilmsgtunnel \
-    QtiTelephonyServicelibrary \
-    embmslibrary \
-    qcrilhook \
-    qti-telephony-common
+#    QtiTelephonyService \
+#    TimeService \
+#    datastatusnotification \
+#    fastdormancy \
+#    shutdownlistener \
+#    CNEService \
+#    QtiTetherService \
+#    com.qualcomm.location \
+#    qcrilmsgtunnel \
+#    QtiTelephonyServicelibrary \
+#    embmslibrary \
+#    qcrilhook \
+#    qti-telephony-common
